@@ -13,7 +13,7 @@ DIR_TEMPLATE = "templates"
 
 PROVIDERS = (
     "base", "onprem", "aws", "azure", "gcp", "firebase", "k8s", "alibabacloud", "oci", "programming", "saas", "elastic",
-    "generic", "openstack", "outscale")
+    "generic", "openstack", "outscale", "tyk")
 
 #########################
 #  Resource Processing  #
@@ -41,6 +41,7 @@ FILE_PREFIXES = {
     "outscale": (),
     "generic": (),
     "openstack": (),
+    "tyk": (),
 }
 
 #########################
@@ -70,6 +71,7 @@ UPPER_WORDS = {
     "outscale": ("osc",),
     "openstack": ("rpm", "loci", "nfv", "ec2api"),
     "pve": ("pve"),
+    "tyk": ("mdcb"),
 }
 
 TITLE_WORDS = {
@@ -426,4 +428,5 @@ ALIASES = {
             "Tripleo": "TripleO",
         }
     },
+    "tyk": {},
 }
