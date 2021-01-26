@@ -40,7 +40,7 @@ for pvd in "${providers[@]}"; do
   echo "cleaning the resource names for provider '$pvd'"
   python -m scripts.resource clean "$pvd"
   # round the all png images for aws provider
-  if [ "$pvd" = "aws" ]; then
+  if [ "$pvd" = "aws" ] || [ "$pvd" = "tyk" ]; then
     echo "rounding the resources for provider '$pvd'"
     python -m scripts.resource round "$pvd"
   fi
