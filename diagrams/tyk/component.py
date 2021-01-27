@@ -8,8 +8,16 @@ class _Component(_Tyk):
     _icon_dir = "resources/tyk/component"
 
 
+class Dashboard(_Component):
+    _icon = "dashboard.png"
+
+
 class Gateway(_Component):
     _icon = "gateway.png"
+
+
+class Pump(_Component):
+    _icon = "pump.png"
 
 
 # Aliases
