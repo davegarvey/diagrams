@@ -16,6 +16,10 @@ class Gateway(_Component):
     _icon = "gateway.png"
 
 
+class MDCB(_Component):
+    _icon = "mdcb.png"
+
+
 class Pump(_Component):
     _icon = "pump.png"
 
