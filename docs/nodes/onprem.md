@@ -20,8 +20,8 @@ Node classes list of onprem provider.
 - **diagrams.onprem.analytics.Hive**
 - **diagrams.onprem.analytics.Metabase**
 - **diagrams.onprem.analytics.Norikra**
-- **diagrams.onprem.analytics.Presto**
 - **diagrams.onprem.analytics.Powerbi**, **PowerBI** (alias)
+- **diagrams.onprem.analytics.Presto**
 - **diagrams.onprem.analytics.Singer**
 - **diagrams.onprem.analytics.Spark**
 - **diagrams.onprem.analytics.Storm**
@@ -189,6 +189,7 @@ Node classes list of onprem provider.
 - **diagrams.onprem.network.Powerdns**
 - **diagrams.onprem.network.Tomcat**
 - **diagrams.onprem.network.Traefik**
+- **diagrams.onprem.network.Tyk**
 - **diagrams.onprem.network.Vyos**, **VyOS** (alias)
 - **diagrams.onprem.network.Wildfly**
 - **diagrams.onprem.network.Zookeeper**
