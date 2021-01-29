@@ -92,6 +92,9 @@ TITLE_WORDS = {
 # TODO: check if the classname exists
 ALIASES = {
     "onprem": {
+        "analytics": {
+            "Powerbi": "PowerBI"
+        },
         "ci": {
             "Circleci": "CircleCI",
             "Concourseci": "ConcourseCI",
@@ -241,6 +244,7 @@ ALIASES = {
         "compute": {
             "ContainerRegistries": "ACR",
             "KubernetesServices": "AKS",
+            "VMScaleSet": "VMSS"
         },
     },
     "gcp": {
@@ -394,6 +398,9 @@ ALIASES = {
         }
     },
     "programming": {
+        "framework": {
+            "Fastapi": "FastAPI"
+        },
         "language": {
             "Javascript": "JavaScript",
             "Nodejs": "NodeJS",
